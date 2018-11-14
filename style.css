@@ -32,7 +32,7 @@ h1 {
 }
 
 ul {
-    width: 422px;
+    width: fit-content;
     margin-left: 36px;
     margin-top: 22px;
     color: #ffffff;
@@ -54,19 +54,25 @@ li {
     float: right;
 }
 
+section {
+    padding: 50px 50px 0;
+}
+
 #about {
     height: 295px;
-    padding: 50px 50px 0;
 }
 
 aside {
     background-color: #445161;
+}
+
+.about_media {
     width: 430px;
     height: 245px;
     float: right;
 }
 
-article {
+.about_desc {
     width: 649px;
     float: left;
 }
@@ -85,5 +91,60 @@ p {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    margin-top: -3px;
     margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#dignity {
+    height: 368px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+}
+
+.pluses, .scrins_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.plus_item {
+    width: 49%;
+    margin-bottom: 5px;
+}
+
+.plus_icon {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 9px;
+    background: #445161 url(icons/Layer%202.png) no-repeat center;
+}
+
+#scrinshots {
+    height: 437px;
+    text-align: center;
+}
+
+.scrin_item {
+    width: 49%;
+}
+
+.scrin {
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+    float: left;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+figcaption {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 15px;
 }
