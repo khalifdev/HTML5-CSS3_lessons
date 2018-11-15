@@ -102,7 +102,9 @@ p {
     text-align: center;
 }
 
-.pluses, .scrins_box {
+.pluses,
+.scrins_box,
+.reviews_box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -147,4 +149,49 @@ figcaption {
     line-height: 30px;
     text-align: left;
     margin-bottom: 15px;
+}
+
+#reviews {
+    height: 374px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+}
+
+.review {
+    width: 49%;
+    margin-bottom: 24px;
+}
+
+.rev_photo {
+    border-radius: 50%;
+    background-color: #445161;
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 16px;
+}
+
+.rev_text {
+    width: 429px;
+    border-radius: 7px;
+    background-color: rgb(236, 236, 236);
+    padding: 16px 27px;
+    overflow: hidden;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 18px;
+    text-align: left;
+}
+
+blockquote {
+    margin-bottom: 15px;
+}
+
+cite {
+    color: #989898;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 15px;
 }
