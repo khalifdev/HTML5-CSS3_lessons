@@ -102,7 +102,7 @@ p {
     text-align: center;
 }
 
-.pluses,
+.pluses_box,
 .scrins_box,
 .reviews_box {
     display: flex;
@@ -142,7 +142,7 @@ p {
     margin-right: 15px;
 }
 
-figcaption {
+h4 {
     color: #445161;
     font-size: 24px;
     font-weight: 400;
