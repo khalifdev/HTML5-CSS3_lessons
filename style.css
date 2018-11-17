@@ -200,7 +200,7 @@ cite {
     margin: 0 auto;
 }
 
-.col-xl {
+.col {
     max-width: 300px;
     height: fit-content;
     background-color: #445161;
@@ -208,10 +208,9 @@ cite {
     padding: 0;
     padding-bottom: 20px;
     border-radius: 5px;
-    
 }
 
-.col-xl h4 {
+.col h4 {
     height: 54px;
     color: #ffffff;
     background-color: #445161;
@@ -222,7 +221,7 @@ cite {
     text-align: center;
 }
 
-.col-xl .price {
+.col .price {
     height: 68px;
     background-color: #fff;
     color: #445162;
@@ -232,7 +231,7 @@ cite {
     text-align: center;
 }
 
-.col-xl ol {
+.col ol {
     color: #ffffff;
     font-size: 14px;
     font-weight: 400;
@@ -260,4 +259,105 @@ cite {
 .ButtonBuy:hover {
     text-decoration: none;
     color: #445161;
+}
+
+.contacts {
+    background-color: #445161;
+    color: #fff;
+    padding: 50px 0 50px;
+}
+
+.contacts h3 {
+    color: #fff;
+}
+
+.col-6 {
+    max-width: 530px;
+}
+
+input:not([type="submit"]) {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 21px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+textarea {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 170px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 21px;
+}
+
+input[type="submit"] {
+    display: block;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 140px;
+    height: 40px;
+    margin: 0 auto;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #ffd;
+}
+
+.socials {
+    height: 42px;
+}
+
+.socials a {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-top: -42px;
+    margin-right: 3px;
+}
+
+.copy {
+    height: 30px;
+    background-color: rgb(245, 245, 245);
+    color: #445162;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 28px;
+    text-align: center;
 }
