@@ -1,4 +1,8 @@
-.row-header {
+ul, .right-col, .about_media {
+    margin: 0 auto 20px;
+}
+
+h1, .about_desc h3, .col-lg-6 {
     text-align: center;
 }
 
@@ -9,4 +13,9 @@
 .rels {
     padding-top: 20px;
     text-align: center;
+}
+
+.socials img {
+    display: block;
+    margin: 0 auto;
 }
