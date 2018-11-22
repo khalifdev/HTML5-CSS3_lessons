@@ -194,10 +194,23 @@
                     <div class="row justify-content-center">
                         <div class="col-md-7 col-lg-6">
                             <form action="#">
-                                <input type="text" placeholder="Your name:">
-                                <input type="email" placeholder="Your email:">
-                                <textarea name="msg_textarea" id="msg_textarea" placeholder="Your message:"></textarea>
-                                <input type="submit" value="SEND"> </form>
+                                <label for="name">Имя <em>*</em></label>
+                                <input type="text" id="name" placeholder="Иван" required pattern="\S+[А-яа-я]">
+                                <label for="email">Email <em>*</em></label>
+                                <input type="email" id="email" placeholder="email@server.com" required pattern="\S+@[a-z]+.[a-z]+">
+                                <label for="telephone">Телефон <em>*</em></label>
+                                <input type="tel" id="telephone" placeholder="+7-903-955-55-55" required>
+                                <label for="age">Возраст<em>*</em></label>
+                                <input id="age" type="number" required min="14" max="100">
+                                <label for="gender">Пол</label>
+                                <select id="gender">
+                                    <option value="female">Мужской</option>
+                                    <option value="male">Женский</option>
+                                </select>
+                                <br>
+                                <label for="comments">Дополнительная информация о себе</label>
+                                <textarea name="comments" id="comments" placeholder="О себе"></textarea>
+                                <input type="submit" value="Отправить"> </form>
                         </div>
                         <div class="col-md-3 col-lg-3 rels">
                             <a href="skype:here_your_login_skype"><img src="icons/skype%20icon.png" alt=""> here_your_login_skype</a>
